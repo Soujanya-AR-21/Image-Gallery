@@ -62,3 +62,12 @@ body{
     object-fit: cover;
     cursor: pointer;
 }
+
+#lightbox{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    transform: translateY(-50%);
+    margin-top: 200px;
+    height: 50vh;
+}
