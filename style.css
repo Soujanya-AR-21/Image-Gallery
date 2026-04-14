@@ -52,6 +52,6 @@ body{
 
 .gallery {
         display: flex;
-        flex-wrap: wrap; 
-        gap: 10px;
+        flex-wrap: wrap; /* Allows images to wrap to next line if screen is small */
+        gap: 10px; /* Space between images */
     }
