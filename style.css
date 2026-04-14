@@ -57,7 +57,7 @@ body{
     }
 
 .img{
-    width: 200px; 
+    width: 200px;  /* Set fixed width or use percentage */
     height: auto;
     object-fit: cover;
     cursor: pointer;
