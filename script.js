@@ -31,4 +31,8 @@ function filterImages(category) {
     galleryImages.forEach(img => {
         if (category === 'all' || img.dataset.category === category) {
           img.style.display = 'block';
+        } else {
+          img.style.display = 'none';
+        }
+    });
 }
