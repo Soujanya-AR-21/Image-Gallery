@@ -32,7 +32,7 @@ body{
     gap: 10px; 
 }
 
-.nav {
+.nav { 
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
